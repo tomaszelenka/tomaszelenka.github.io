@@ -471,6 +471,10 @@ button:focus {
 	margin-top: 20px;
 }
 
+.mu-skill-progress-bar strong {
+	color: purple;
+}
+
 .mu-skill-progress-bar>span {
 	display: block;
 	margin-bottom: 5px;
@@ -508,8 +512,8 @@ button:focus {
 }
 
 .mu-social-media{
-	display: inline;
-	float: left;
+	display: inline-block;
+	text-align: center;
 	width: 100%;
 }
 
@@ -521,7 +525,7 @@ button:focus {
 	border-radius: 50%;
 	display: inline-block;
 	font-size: 15px;
-	border: 1px solid #333;
+	/* border: 1px solid #333; */
 	width: 35px;
 	height: 35px;
 	line-height: 32px;
