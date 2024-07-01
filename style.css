@@ -20,6 +20,7 @@ Version: 1.0
 #CONTACT US
 #FOOTER
 #RESPONSIVE STYLE
+#GOOGLE FONTS
 */
 
 
@@ -1387,3 +1388,13 @@ button:focus {
 	
 }
 
+/*--------------------*/
+/* GOOGLE FONTS */
+/*--------------------*/
+
+.kaushan-script-regular {
+	font-family: "Kaushan Script", cursive;
+	font-weight: 400;
+	font-style: normal;
+  }
+  
