@@ -20,6 +20,7 @@ Version: 1.0
 #CONTACT US
 #FOOTER
 #RESPONSIVE STYLE
+
 */
 
 
@@ -471,6 +472,10 @@ button:focus {
 	margin-top: 20px;
 }
 
+.mu-skill-progress-bar strong {
+	color: purple;
+}
+
 .mu-skill-progress-bar>span {
 	display: block;
 	margin-bottom: 5px;
@@ -517,8 +522,10 @@ button:focus {
 	margin-top: 20px;
 }
 
-.mu-social-media a {
+/* .mu-social-media a {
 	border-radius: 50%;
+	border: none;
+	border-radius: 0;
 	display: inline-block;
 	font-size: 15px;
 	border: 1px solid #333;
@@ -530,6 +537,29 @@ button:focus {
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
 	
+} */
+
+.mu-social-media a {
+	border: none;
+    background: none;
+    padding: 0; 
+    border-radius: 0;
+    font-size: 15px;
+    display: inline-block;
+    text-align: center; 
+    margin: 5px;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	width: 35px;
+	height: 35px;
+	line-height: 32px;
+
+} 
+
+.mu-social-media a:hover,
+.mu-social-media a:focus {
+    outline: none; 
+    border: none;
 }
 
 .mu-resume-btn {
@@ -910,8 +940,8 @@ button:focus {
 }
 
 .mu-contact-area {
-	display: inline;
-	float: left;
+	display: inline-block;
+	text-align: center;
 	padding: 100px 0;
 	width: 100%;
 }
@@ -1386,4 +1416,3 @@ button:focus {
 	
 	
 }
-
