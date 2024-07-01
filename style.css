@@ -512,8 +512,8 @@ button:focus {
 }
 
 .mu-social-media{
-	display: inline;
-	float: left;
+	display: inline-block;
+	text-align: center;
 	width: 100%;
 }
 
