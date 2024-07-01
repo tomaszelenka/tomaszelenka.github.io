@@ -20,6 +20,7 @@ Version: 1.0
 #CONTACT US
 #FOOTER
 #RESPONSIVE STYLE
+
 */
 
 
@@ -441,8 +442,10 @@ button:focus {
 
 .mu-about-content {
 	background-color: #fff;
-	display: inline;
-	float: left;
+	/* display: inline;
+	float: left; */
+	display: inline-block;
+	text-align: center;
 	margin-top: 70px;
 	padding: 20px;
 	width: 100%;
