@@ -540,16 +540,21 @@ button:focus {
 } */
 
 .mu-social-media a {
-	border: none; /* Odstraní okraj */
-    background: none; /* Odstraní pozadí */
-    padding: 0; /* Odstraní výplň */
-    border-radius: 0; /* Nastaví rohy na neokrouhlené */
-    font-size: 24px; /* Zvětší ikonu */
-    display: inline-block; /* Zajistí, že ikony zůstanou v řádku */
-    text-align: center; /* Zarovnání textu na střed */
-    margin: 5px; /* Okraje mezi ikonami */
+	border: none;
+    background: none;
+    padding: 0; 
+    border-radius: 0;
+    font-size: 24px;
+    display: inline-block;
+    text-align: center; 
+    margin: 5px; 
 
 } 
+
+.mu-social-media a:hover,
+.mu-social-media a:focus {
+    outline: none; 
+    border: none;
 
 .mu-resume-btn {
 	margin-top: 30px;
