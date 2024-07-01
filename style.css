@@ -526,8 +526,8 @@ button:focus {
 	display: inline-block;
 	font-size: 35px;
 	border: 1px solid #333;
-	width: 35px;
-	height: 35px;
+	width: 45px;
+	height: 45px;
 	line-height: 45px;
 	text-align: center;
 	margin: 5px 5px;
