@@ -915,8 +915,8 @@ button:focus {
 }
 
 .mu-contact-area {
-	display: inline;
-	float: left;
+	display: inline-block;
+	text-align: center;
 	padding: 100px 0;
 	width: 100%;
 }
