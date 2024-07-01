@@ -522,13 +522,13 @@ button:focus {
 	margin-top: 20px;
 }
 
-.mu-social-media a {
+/* .mu-social-media a {
 	border-radius: 50%;
 	border: none;
 	border-radius: 0;
 	display: inline-block;
 	font-size: 15px;
-	/* border: 1px solid #333; */
+	border: 1px solid #333;
 	width: 35px;
 	height: 35px;
 	line-height: 32px;
@@ -537,7 +537,19 @@ button:focus {
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
 	
-}
+} */
+
+.mu-social-media a {
+	border: none; /* Odstraní okraj */
+    background: none; /* Odstraní pozadí */
+    padding: 0; /* Odstraní výplň */
+    border-radius: 0; /* Nastaví rohy na neokrouhlené */
+    font-size: 24px; /* Zvětší ikonu */
+    display: inline-block; /* Zajistí, že ikony zůstanou v řádku */
+    text-align: center; /* Zarovnání textu na střed */
+    margin: 5px; /* Okraje mezi ikonami */
+
+} 
 
 .mu-resume-btn {
 	margin-top: 30px;
