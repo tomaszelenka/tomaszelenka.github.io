@@ -528,7 +528,7 @@ button:focus {
 	border: 1px solid #333;
 	width: 45px;
 	height: 45px;
-	line-height: 45px;
+	line-height: 42px;
 	text-align: center;
 	margin: 5px 5px;
 	-webkit-transition: all 0.5s;
