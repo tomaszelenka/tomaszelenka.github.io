@@ -523,7 +523,7 @@ button:focus {
 }
 
 .mu-social-media a {
-	/* border-radius: 50%; */
+	border-radius: 50%;
 	border: none;
 	border-radius: 0;
 	display: inline-block;
