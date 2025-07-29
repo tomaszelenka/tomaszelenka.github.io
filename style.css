@@ -461,6 +461,10 @@ button:focus {
   color: #333;
 }
 
+.mu-about-header .about-list li {
+  margin-bottom: 20px;
+}
+
 /* END NEW ABOUT ME PART */
 .mu-heading-title {
 	color: #1c1b1b;
