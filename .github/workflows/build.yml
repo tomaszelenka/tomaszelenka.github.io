@@ -3,7 +3,11 @@ name: Build and Push Web Image
 on:
   push:
     branches:
-      - main 
+      - main
+
+env:
+  IMAGE_NAME: zelenkatomas/personal-web
+  SHORT_SHA: ${{ github.sha.substr(0,7) }}
 
 jobs:
   build:
@@ -23,4 +27,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: zelenkatomas/personal-web:latest
+          tags: |
+            ${{ env.IMAGE_NAME }}:latest
+            ${{ env.IMAGE_NAME }}:${{ github.run_number }}-${{ env.SHORT_SHA }

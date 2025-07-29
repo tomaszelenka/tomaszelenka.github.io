@@ -435,6 +435,27 @@ button:focus {
 	width: 100%;
 }
 
+/* TEST PART */
+.mu-about-header {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.mu-about-header .about-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    line-height: 1.8;
+    font-size: 16px;
+    color: #333;
+}
+
+.mu-about-header .about-list li {
+    margin-bottom: 10px;
+}
+
+/* END TEST PART */
 .mu-heading-title {
 	color: #1c1b1b;
 	margin-bottom: 15px;
