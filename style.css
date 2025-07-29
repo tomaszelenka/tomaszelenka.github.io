@@ -1248,7 +1248,6 @@ button:focus {
 
 	.mu-featured-slider-content p {
 		font-size: 12px;
-		padding: 100px 12px;
 	}
 
 	.mu-primary-btn {
@@ -1320,6 +1319,7 @@ button:focus {
 
 	.mu-featured-area h1 {
 		font-size: 40px;
+		padding-bottom: 20%;
 	}
 
 	.mu-featured-slider p, 
