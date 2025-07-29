@@ -357,9 +357,9 @@ button:focus {
 
 .mu-featured-area h1 {
 	font-size: 60px;
-	color: white;
+	color: #fff;
 	font-weight: 700;
-	margin-bottom: 600px;
+	margin-bottom: 30px;
 	line-height: 1;
 }
 
